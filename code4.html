@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FORM FORMAT</title>
+</head>
+<body>
+    <fieldset align="center"><h1>Information Form </h1>
+    <p class="fa fa-desktop">  DESKTOP</p>
+
+    <form>
+        <label for="fname" >First name</label>
+            <input type="text" name="fname"><br>
+        
+        <label for="sname">second name</label>
+        <input type="text" name="sname"><br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email"><br>
+        
+        <label for="mbl">moblie number</label>
+            <input type="tel"name="mbl" id="mobile" pattern="{0,9}{10}"><br>
+            <label for="number">password</label>
+                <input type="password" name="number"><br>
+            </label>
+            <label for="date">date of birth
+                <input type="date" name="date" ><br>
+                <label>colour</label>
+                <input type="color"><br>
+                <label>resume</label>
+                <input type="file"><br>
+            
+                <label for="10th"> Qualification :10th</label>
+                <input  type="checkbox" id="check01" name="10th" value="10">
+                <label for="inter">inter</label>
+                <input type="checkbox" id="check02" name=""inter value="inter"><br>
+                 <label>course select </label> 
+                <select name="course" id="course" >course
+                    
+                <optgroup label="course">
+                    
+                    <option value="ECE">ECE</option>
+                    <option value="mech">mech</option>
+                    <option value="civil">civil</option>
+                    <option value="EEE">EEE</option>
+                    <option value="it">it</option>
+                </optgroup></select><br>
+
+            <input type="submit"/>
+        </fieldset>
+           </form>
+    
+</body>
+</html>
